@@ -5,13 +5,13 @@ import { Input, Label } from './Filter.styled';
 const Filter = ({ filter, handleChange }) => {
   return (
     <>
-      <Label>Search</Label>
+      <Label>Find contacts by name</Label>
       <Input
         value={filter}
         name="filter"
         onChange={handleChange}
         type="text"
-        placeholder="search..."
+        placeholder="Contact search..."
       />
     </>
   );

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Form, Input, Label, Button } from './ContactAddForm.styled';
+import { Form, Input, Label, Button } from './ContactForm.styled';
 import { initialState } from './initialState';
 
-const ContactAddForm = ({ onSubmit }) => {
+const ContactForm = ({ onSubmit }) => {
   const [form, setForm] = useState({ ...initialState });
 
   const handleChange = ({ target }) => {
@@ -25,7 +25,7 @@ const ContactAddForm = ({ onSubmit }) => {
   return (
     <>
       <Form onSubmit={handleSubmit} autoComplete="on">
-        <Label>Name</Label>
+        <Label htmlFor="name">Name</Label>
         <Input
           type="text"
           name="name"
@@ -36,7 +36,7 @@ const ContactAddForm = ({ onSubmit }) => {
           title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
           required
         />
-        <Label>Number</Label>
+        <Label htmlFor="phone">Number</Label>
         <Input
           type="tel"
           name="number"
@@ -53,8 +53,8 @@ const ContactAddForm = ({ onSubmit }) => {
   );
 };
 
-ContactAddForm.propTypes = {
+ContactForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
 
-export default ContactAddForm;
+export default ContactForm;
