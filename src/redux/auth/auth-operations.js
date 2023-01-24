@@ -9,11 +9,10 @@ export const signup = createAsyncThunk(
       const result = await api.signup(data);
       return result;
     }
-    catch (error) {
-      return rejectWithValue(error);
+    catch ({ error }) {
+
+      return rejectWithValue(alert(`This email is already taken!`));
     }
-
-
   }
 )
 
