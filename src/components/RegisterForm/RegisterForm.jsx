@@ -31,7 +31,12 @@ const RegisterForm = ({ onSubmit }) => {
       </Wrap>
       <Text>Register to work with the phonebook</Text>
       <Form onSubmit={handleSubmit}>
-        <TextField value={name} onChange={handleChange} {...fields.name} />
+        <TextField
+          value={name}
+          onChange={handleChange}
+          {...fields.name}
+          pattern={"^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"}
+        />
         <TextField value={email} onChange={handleChange} {...fields.email} />
         <TextField
           value={password}

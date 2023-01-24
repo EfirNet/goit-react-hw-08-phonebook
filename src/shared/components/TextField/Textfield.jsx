@@ -10,6 +10,8 @@ const TextField = ({
   placeholder,
   required,
   type,
+  pattern,
+  title,
 }) => {
   const id = useMemo(() => nanoid(), []);
 
@@ -24,6 +26,8 @@ const TextField = ({
         placeholder={placeholder}
         required={required}
         type={type}
+        pattern={pattern}
+        title={title}
       />
     </div>
   );
