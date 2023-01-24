@@ -1,5 +1,13 @@
 import useForm from '../../shared/hooks/useForm';
-import { Button, Form, Wrapper, Title, Text, Wrap } from './LoginForm.styled';
+import {
+  Button,
+  Form,
+  Wrapper,
+  Title,
+  Text,
+  Wrap,
+  ButtonLink,
+} from './LoginForm.styled';
 import TextField from '../../shared/components/TextField';
 import { initialState } from './initialState';
 import { fields } from './fields';
@@ -15,7 +23,12 @@ const LoginForm = ({ onSubmit }) => {
 
   return (
     <Wrapper>
-      <Title>Phonebook</Title>
+      <Wrap>
+        <ButtonLink>
+          <Link to={'/register'}>Register</Link>
+        </ButtonLink>
+        <Title>Phonebook</Title>
+      </Wrap>
       <Text>Log in to work with the phonebook</Text>
       <Form onSubmit={handleSubmit}>
         <TextField value={email} onChange={handleChange} {...fields.email} />
@@ -25,11 +38,7 @@ const LoginForm = ({ onSubmit }) => {
           {...fields.password}
         />
         <Wrap>
-          {' '}
           <Button type="submit">Login</Button>
-          <Button>
-            <Link to={'/register'}>Register</Link>
-          </Button>
         </Wrap>
       </Form>
     </Wrapper>

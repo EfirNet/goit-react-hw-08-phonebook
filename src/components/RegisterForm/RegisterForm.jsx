@@ -7,6 +7,7 @@ import {
   Title,
   Text,
   Wrap,
+  ButtonLink,
 } from './RegisterForm.styled';
 import { initialState } from './initialState';
 import { fields } from './fields';
@@ -22,7 +23,12 @@ const RegisterForm = ({ onSubmit }) => {
 
   return (
     <Wrapper>
-      <Title>Phonebook</Title>
+      <Wrap>
+        <ButtonLink>
+          <Link to={'/login'}>Login</Link>
+        </ButtonLink>
+        <Title>Phonebook</Title>
+      </Wrap>
       <Text>Register to work with the phonebook</Text>
       <Form onSubmit={handleSubmit}>
         <TextField value={name} onChange={handleChange} {...fields.name} />
@@ -34,9 +40,6 @@ const RegisterForm = ({ onSubmit }) => {
         />
         <Wrap>
           <Button type="submit">Register</Button>
-          <Button>
-            <Link to={'/login'}>Login</Link>
-          </Button>
         </Wrap>
       </Form>
     </Wrapper>
