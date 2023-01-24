@@ -58,11 +58,11 @@ transition: transform 250ms, background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1
 
 export const ButtonLink = styled.button`
 /* margin: 15px auto 0; */
-margin: 0 5px 0;
+margin: 0 15px 0;
 height: 40px;
 width: 70px;
 /* font-size: 10px; */
-border: 0.3px solid black;
+/* border: 0.3px solid black; */
 /* border-radius: 50%; */
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 cursor: pointer;
@@ -79,7 +79,7 @@ transition: transform 250ms, background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1
 
 export const Wrap = styled.div`
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
 `;
 
