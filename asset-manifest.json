@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.69b7370d.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.94bf9b51.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.d579d125.js",
     "static/js/226.680daf88.chunk.js": "/goit-react-hw-08-phonebook/static/js/226.680daf88.chunk.js",
     "static/js/13.d7a29a0a.chunk.js": "/goit-react-hw-08-phonebook/static/js/13.d7a29a0a.chunk.js",
     "static/js/865.2392a54e.chunk.js": "/goit-react-hw-08-phonebook/static/js/865.2392a54e.chunk.js",
-    "static/css/986.33f3f080.chunk.css": "/goit-react-hw-08-phonebook/static/css/986.33f3f080.chunk.css",
+    "static/css/986.8c8a8cac.chunk.css": "/goit-react-hw-08-phonebook/static/css/986.8c8a8cac.chunk.css",
     "static/js/986.98be19a8.chunk.js": "/goit-react-hw-08-phonebook/static/js/986.98be19a8.chunk.js",
     "static/js/881.8088ec06.chunk.js": "/goit-react-hw-08-phonebook/static/js/881.8088ec06.chunk.js",
     "static/media/pulp-fiction-john-travolta.gif": "/goit-react-hw-08-phonebook/static/media/pulp-fiction-john-travolta.59b46f4510af6cc07976.gif",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.69b7370d.css.map": "/goit-react-hw-08-phonebook/static/css/main.69b7370d.css.map",
-    "main.94bf9b51.js.map": "/goit-react-hw-08-phonebook/static/js/main.94bf9b51.js.map",
+    "main.d579d125.js.map": "/goit-react-hw-08-phonebook/static/js/main.d579d125.js.map",
     "226.680daf88.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/226.680daf88.chunk.js.map",
     "13.d7a29a0a.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/13.d7a29a0a.chunk.js.map",
     "865.2392a54e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/865.2392a54e.chunk.js.map",
-    "986.33f3f080.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/986.33f3f080.chunk.css.map",
+    "986.8c8a8cac.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/986.8c8a8cac.chunk.css.map",
     "986.98be19a8.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/986.98be19a8.chunk.js.map",
     "881.8088ec06.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/881.8088ec06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69b7370d.css",
-    "static/js/main.94bf9b51.js"
+    "static/js/main.d579d125.js"
   ]
 }
