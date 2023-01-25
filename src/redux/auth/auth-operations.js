@@ -25,6 +25,9 @@ export const login = createAsyncThunk(
       const result = await api.login(data);
       return result;
     } catch (error) {
+      if (error.response.status === 400) {
+        alert(`You entered the wrong email or password!`)
+      }
       return rejectWithValue(error);
     }
   }
